@@ -6,9 +6,9 @@ import os
 app = FastAPI()
 
 # Load credentials
-APP_ID = os.getenv("MICROSOFT_APP_ID", "")
-APP_PASSWORD = os.getenv("MICROSOFT_APP_PASSWORD", "")
-TENANT_ID = os.getenv("MICROSOFT_APP_TENANT_ID", "")
+APP_ID = os.getenv("MICROSOFTAPPID", "")
+APP_PASSWORD = os.getenv("MICROSOFTAPPPASSWORD", "")
+TENANT_ID = os.getenv("MICROSOFTAPPTENANTID", "")
 
 # Adapter settings (required for Single Tenant Azure bots)
 settings = BotFrameworkAdapterSettings(APP_ID, APP_PASSWORD)
