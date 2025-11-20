@@ -1,0 +1,4 @@
+APP_ID=""
+APP_PASSWORD=""
+TENANT_ID=""
+MICROSOFT_APP_TYPE="SingleTenant"
